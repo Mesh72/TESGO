@@ -1,0 +1,374 @@
+/* style.css for TESGO
+*/
+
+body{
+	color : black;
+	font-family : arial;
+	font-size : 12pt;
+	line-height : 1.5em;
+}
+
+
+
+#wrapper	{
+	position : relative; /*eg header becomes relative to the wrapper*/
+	margin : 0 auto; /* centres the element/div */
+	width : 900px;
+	height : auto;
+	overflow : auto; /* allows the element to stretch to its content(lookup the other overflow options)*/
+	background : -webkit-linear-gradient(top, white, #d9d9d9);
+}
+
+#wrapperhome	{
+	position : relative; /*eg header becomes relative to the wrapper*/
+	margin : 0 auto; /* centres the element/div */
+	width : 900px;
+	height : 550px;
+	overflow : auto; /* allows the element to stretch to its content(lookup the other overflow options)*/
+	background : -webkit-linear-gradient(top, white, #d9d9d9)
+}
+
+
+.home 	{
+	position : relative;
+	margin : 0 auto;
+	width : 600px;
+	height : auto;
+	display : block;
+	padding : 20px;
+}
+
+dt.btnhome	{
+	text-align : center;
+	text-indent : -2px;
+}
+
+dt.btnhome a 	{
+	display : block;
+	color : 00539f;
+	font-weight : bold;
+	text-decoration : none;
+	background : ffffff;
+	width : 110px;
+	position : relative;
+	margin : 0 auto;
+}
+
+dt.btnhome a:hover	{
+	position : relative;
+	margin : 0 auto;
+	background : ffffff;
+	width : 110px;
+	color : grey;
+}
+
+.products	 {
+	border : 1px solid silver;
+	border-radius : 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width : 21.76%;
+	height : auto;
+	padding-right : 10px;
+	padding-top : 10px;
+	display : inline-block;
+	margin : 7.3px;
+	background : white;
+	text-indent : 10px;
+}
+
+.products item	 {
+	border : 1px solid silver;
+	border-radius : 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width : 96%;
+	height : auto;
+	padding-right : 10px;
+	padding-top : 10px;
+	display : inline-block;
+	margin : 7.3px;
+	background : white;
+	text-indent : 10px;
+}
+
+.image		{
+	height : 170px;
+	text-align : center;
+}
+
+.products h2	{
+	font-size : 12px;
+	text-align : left;
+	line-height : 5px;
+	color : #00539f;
+}
+
+.products h3 {
+	font-size : 12px;
+	text-align : left;
+	text-height : 14px;
+	line-height : normal;
+	color : #00539f;
+	display: block;
+    margin-left: 10px;
+    text-indent: 0px;
+}
+
+.products h4 {
+	font-size : 16px;
+	text-align : left;
+	line-height : normal;
+	color : #4f4f4f;
+}
+
+a		{
+	text-decoration : none;
+}
+
+.products img {
+	margin : 0 auto;
+	max-height : 170px;
+	max-width : 97%;
+	width : auto;
+}
+
+dt.btn	{
+	margin-bottom : 5px;
+	text-align : center;
+}
+
+dt.btn a 	{
+	display : block;
+	color : white;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+dt.btn a:link, a:visited	{
+	background : #fe8d00;
+	width : 110px;
+	margin-left : 10px;
+	border : 2px solid #fe8d00;
+}
+
+dt.btn a:hover	{
+	background : #e8172c;
+	width : 110px;
+	margin-left : 10px;
+	border : 2px solid #e8172c;
+}
+
+dt.btn a:active	{
+	background : green;
+	width : 110px;
+	margin-left : 10px;
+	border : 2px solid green;
+}
+
+#pageHeader{
+	color : #1862A8;
+	width : 900px;
+	font-family : arial;
+	font-weight : bold;
+    font-size : 12px;
+}
+
+#pageContent{
+	color : #55D5D;
+	border : none;
+	border-bottom : none;
+	width : 900px;
+	min-height : 400px;
+}
+
+#pageFooter{
+	position : relative;
+	background-color : #1862A8;
+	width : 900px;
+	font-size : 8px;
+	text-align : center;
+	color : white;
+}
+
+#pageFooterhome{
+	position : relative;
+	margin : 0 auto;
+	background-color : #1862A8;
+	width : 900px;
+	font-size : 8px;
+	text-align : center;
+	color : white;
+}
+
+.clear {
+    margin : 0;
+    padding : 0;
+    clear : both;
+}
+
+nav#admin-menu	{
+	border : none;
+	background-color : none;
+}
+
+#admin-menu ul {
+	display : block;
+	list-style-type : none;
+}
+
+#admin-menu ul li a {
+    display : blocks;
+    float : right;
+    font-family : arial;
+	font-weight : bold;
+    font-size : 12px;
+    text-decoration : none;
+    color : #e8172c;
+	text-transform: uppercase;
+}
+
+.admin	{
+	width : 200px;
+	padding : 10px;
+	float : left;
+}
+	
+.admin h5	{
+	font-family : arial;
+	font-size : 12px;
+	font-weight : bold;
+	text-align : left;
+	line-height : 25px;
+	color : #00539f;
+	text-indent : 0px;
+}
+
+.admin h6	{
+	font-family : arial;
+	font-size : 12px;
+	font-weight : bold;
+	text-align : left;
+	line-height : 14px;
+	color : #00539f;
+}
+
+nav#cart-menu	{
+	border : none;
+	background-color : none;
+}
+
+#cart-menu ul {
+	display : block;
+	list-style-type : none;
+}
+
+#cart-menu ul li a {
+    display : blocks;
+    float : right;
+    font-family : arial;
+	font-weight : bold;
+    font-size : 12px;
+    text-decoration : none;
+    color : white;
+	text-transform: uppercase;
+}
+
+nav#top-menu	{
+	margin : 0 auto;
+	padding : 0;
+	width : 900px;
+	height : 30px;
+	border : none;
+	background-color : #1862A8;
+}
+
+#top-menu ul {
+	display : block;
+	list-style-type : none;
+	width : 900px;
+	margin : 0 auto;
+}
+
+#top-menu ul li {
+    margin : 0;
+    padding : 0;
+}
+#top-menu ul li a {
+    display : block;
+    float : left;
+    max-height : 25px;
+    width : 160px;
+    padding : 3px ;
+    font-family : arial;
+	font-weight : bold;
+    font-size : 12px;
+    text-align : center;
+    text-decoration : none;
+    color : white;
+	text-transform: uppercase;
+}
+
+#search {
+
+}
+
+#search input[type="text"] {
+    background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
+    border: 1px solid #d1d1d1;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #bebebe;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 400px;
+    }
+	
+
+#removeprod	{
+	margin : 15px;
+	font-family : Arial;
+	width : 870px;
+	border-collapse : collapse;
+}
+
+#removeprod td, #removeprod th 	{
+	font-size : 12px;
+	border : 0px;
+	padding : 3px 7px 2px 7px;
+	width : auto;
+}
+
+#removeprod th 	{
+	font-size : 12px;
+	text-align : left;
+	padding-top : 5px;
+	padding-bottom : 4px;
+	background-color : #00539f;
+	color : #ffffff;
+	width : auto;
+}
+
+#removeprod tr, td 	{
+	color : #000000;
+	background-color : pink;
+}
+
+.button	{
+	margin : 15px;
+}
+
+
+
+
+

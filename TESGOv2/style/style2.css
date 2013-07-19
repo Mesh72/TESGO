@@ -1,0 +1,184 @@
+/* style.css for TESGO
+*/
+
+body{
+	color : black;
+	font-family : arial, sans-serif;
+	font-size : 12pt;
+	line-height : 1.5em;
+	text-indent : 10px;
+}
+
+td, th {
+    line-height : 1em;
+    font-family : arial, serif;
+    font-size : 10pt;
+	color : #00539f;
+	text-indent : 10px;
+}
+
+#wrapper	{
+	position : relative; /*eg header becomes relative to the wrapper*/
+	margin : 0 auto; /* centres the element/div */
+	width : 900px;
+	height : auto;
+	overflow : auto; /* allows the element to stretch to its content(lookup the other overflow options)*/
+	background : -webkit-linear-gradient(top, white, #F4F4F4)
+}
+
+.products	 {
+	border : 1px solid grey;
+	width : 30%;
+	height : auto;
+	padding : 5px;
+	display : inline-block;
+	margin : 5px;
+}
+
+.products h2	{
+	font-size : 10pt;
+	
+}
+
+.products img {
+	margin : 0 auto;
+	max-height : 170px;
+	max-width : 98%;
+	width : auto;
+}
+
+#pageHeader{
+	color : #1862A8;
+	width : 900px;
+	font-family : arial, serif;
+	font-weight : bold;
+    font-size : 12px;
+}
+
+#pageContent{
+	color : #55D5D;
+	border : none;
+	border-bottom : none;
+	width : 900px;
+}
+
+#pageFooter{
+	background-color : #1862A8;
+	width : 900px;
+	font-size : 8px;
+	text-align : center;
+	color : white;
+}
+
+
+.clear {
+    margin : 0;
+    padding : 0;
+    clear : both;
+}
+
+nav#top-menu	{
+	margin : 0 auto;
+	padding : 0;
+	width : 900px;
+	height : 30px;
+	border : none;
+	background-color : #1862A8;
+}
+
+
+#top-menu ul {
+	display : block;
+	list-style-type : none;
+	width : 900px;
+	margin : 0 auto;
+}
+
+#top-menu ul li {
+    margin : 0;
+    padding : 0;
+}
+#top-menu ul li a {
+    display : block;
+    float : left;
+    max-height : 25px;
+    width : 100px;
+    padding : 3px ;
+    font-family : arial, serif;
+	font-weight : bold;
+    font-size : 12px;
+    text-align : center;
+    text-decoration : none;
+    color : white;
+	text-transform: uppercase;
+}
+
+table {
+	table-layout : fixed;
+	width : 800px;
+	height : 308px;
+	padding : 20px;
+	margin : 0 auto;
+	border-spacing : 20px 20px;
+}
+
+td { 
+	
+	background : white;
+	-moz-box-shadow : inset 0 0 10px #7777777;
+	-webkit-box-shadow : inset 0 0 10px 7777777;
+	box-shadow : inset 0 0 5px #777777;
+	vertical-align : top;
+}
+
+th{
+	text-transform : uppercase;
+	letter-spacing : 0.1em;
+	border-bottom : 2px solid #111111;
+	text-align : left;
+}
+
+IMG.displayed {
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+	padding : 15px;
+}
+
+body.price {
+	line-height : 1em;
+    font-family : arial, serif;
+    font-size : 16pt;
+	font-weight : bold;
+	color : #ffffff;
+	text-indent : 10px;
+}
+
+#search {
+
+}
+
+#search input[type="text"] {
+    background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
+    border: 1px solid #d1d1d1;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #bebebe;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 400px;
+    }
+
+
+
+
